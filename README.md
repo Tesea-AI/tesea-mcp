@@ -16,6 +16,17 @@ claude plugin install tesea@tesea-ai
 
 Abra `/mcp` no Claude Code e conclua a autenticação no navegador.
 
+## Codex
+
+```bash
+codex mcp add tesea --url https://api.tesea.com.br/mcp
+codex mcp login tesea
+codex mcp list
+```
+
+O login abre o navegador para autorizar a Tesea. No Codex, use `/mcp` para
+confirmar que o servidor está conectado.
+
 ## Hermes Agent
 
 ```bash
