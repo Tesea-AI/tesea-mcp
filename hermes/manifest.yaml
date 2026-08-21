@@ -1,4 +1,3 @@
-# Manifesto pronto para submissão ao catálogo oficial do Hermes Agent.
 manifest_version: 1
 
 name: tesea
@@ -13,8 +12,7 @@ auth:
   type: oauth
 
 post_install: |
-  Na primeira conexão, o Hermes abrirá o navegador para autenticação na Tesea.
-  Para testar ou refazer o login:
+  Para conectar sua conta ou testar a conexão:
 
     hermes mcp login tesea
     hermes mcp test tesea
