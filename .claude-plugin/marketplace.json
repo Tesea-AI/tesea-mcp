@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "tesea-ai",
+  "description": "Plugins oficiais da Tesea AI.",
+  "owner": {
+    "name": "Tesea AI"
+  },
+  "plugins": [
+    {
+      "name": "tesea",
+      "description": "Consulta processos e documentos judiciais pelo MCP oficial da Tesea.",
+      "source": "./plugins/tesea",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tesea",
+  "description": "Conecta o Claude Code ao MCP oficial da Tesea.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Tesea AI"
+  },
+  "homepage": "https://tesea.com.br",
+  "repository": "https://github.com/Tesea-AI/tesea-mcp",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}
