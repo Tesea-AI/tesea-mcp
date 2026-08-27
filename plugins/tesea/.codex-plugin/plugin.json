@@ -1,0 +1,40 @@
+{
+  "name": "tesea",
+  "version": "0.1.0",
+  "description": "Conecta ChatGPT e Codex à Tesea para consultar processos judiciais e documentos.",
+  "author": {
+    "name": "Tesea AI",
+    "url": "https://tesea.com.br"
+  },
+  "homepage": "https://tesea.com.br",
+  "repository": "https://github.com/Tesea-AI/tesea-mcp",
+  "license": "MIT",
+  "keywords": ["tesea", "mcp", "juridico", "processos"],
+  "mcpServers": {
+    "tesea": {
+      "type": "http",
+      "url": "https://api.tesea.com.br/mcp"
+    }
+  },
+  "interface": {
+    "displayName": "Tesea",
+    "shortDescription": "Consulte processos e documentos judiciais.",
+    "longDescription": "Conecte seu workspace Tesea para consultar processos, movimentações, certificados e documentos judiciais no ChatGPT ou Codex.",
+    "developerName": "Tesea AI",
+    "category": "Productivity",
+    "capabilities": [
+      "Consultar processos e movimentações",
+      "Consultar certificados autorizados",
+      "Solicitar e obter documentos judiciais"
+    ],
+    "websiteURL": "https://tesea.com.br",
+    "privacyPolicyURL": "https://tesea.com.br/privacidade",
+    "termsOfServiceURL": "https://tesea.com.br/termos",
+    "brandColor": "#111111",
+    "defaultPrompt": [
+      "Consulte um processo na Tesea.",
+      "Liste meus certificados disponíveis.",
+      "Obtenha os documentos de um processo."
+    ]
+  }
+}

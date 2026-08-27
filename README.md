@@ -1,6 +1,29 @@
 # Tesea MCP
 
-Conector oficial da Tesea para Claude Code, Codex e Hermes Agent.
+Plugin oficial da Tesea para ChatGPT Desktop, Codex, Claude Code e Hermes Agent.
+
+## ChatGPT Desktop e Codex
+
+No ChatGPT Desktop, abra **Settings → Plugins**, adicione o marketplace customizado:
+
+```text
+https://github.com/Tesea-AI/tesea-mcp
+```
+
+Depois, instale o plugin **Tesea**. Na tela de conexão, escolha uma das opções:
+
+- entrar com sua conta Tesea via OAuth;
+- colar uma chave de API Tesea ativa.
+
+A chave é usada somente para autorizar a conexão. O ChatGPT recebe tokens OAuth
+com os mesmos escopos e restrições da chave original.
+
+O mesmo fluxo pode ser iniciado pelo terminal:
+
+```bash
+codex plugin marketplace add Tesea-AI/tesea-mcp
+codex plugin add tesea@tesea-ai
+```
 
 ## Claude Code
 
@@ -10,16 +33,6 @@ claude plugin install tesea@tesea-ai
 ```
 
 Depois de instalar, use `/mcp` para conectar sua conta Tesea.
-
-## Codex
-
-```bash
-codex mcp add tesea --url https://api.tesea.com.br/mcp
-codex mcp login tesea
-codex mcp list
-```
-
-Depois de executar os comandos, use `/mcp` para confirmar a conexão.
 
 ## Hermes Agent
 
