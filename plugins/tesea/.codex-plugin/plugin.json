@@ -1,6 +1,6 @@
 {
   "name": "tesea",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Conecta ChatGPT e Codex à Tesea para consultar processos judiciais e documentos.",
   "author": {
     "name": "Tesea AI",
@@ -31,6 +31,8 @@
     "privacyPolicyURL": "https://tesea.com.br/privacidade",
     "termsOfServiceURL": "https://tesea.com.br/termos",
     "brandColor": "#111111",
+    "composerIcon": "./assets/logo-rounded-black.png",
+    "logo": "./assets/logo-rounded-black.png",
     "defaultPrompt": [
       "Consulte um processo na Tesea.",
       "Liste meus certificados disponíveis.",
