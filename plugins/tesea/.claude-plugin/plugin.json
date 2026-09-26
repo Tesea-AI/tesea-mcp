@@ -1,12 +1,19 @@
 {
   "name": "tesea",
-  "description": "Conecta o Claude Code ao MCP oficial da Tesea.",
-  "version": "0.1.0",
+  "displayName": "Tesea",
+  "version": "0.2.0",
+  "description": "Consulte processos, movimentações, expedientes e documentos judiciais pelo MCP oficial da Tesea no Claude, Cowork e Claude Code.",
   "author": {
     "name": "Tesea AI"
   },
   "homepage": "https://tesea.com.br",
   "repository": "https://github.com/Tesea-AI/tesea-mcp",
   "license": "MIT",
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "keywords": [
+    "tesea",
+    "mcp",
+    "juridico",
+    "processos"
+  ]
 }
