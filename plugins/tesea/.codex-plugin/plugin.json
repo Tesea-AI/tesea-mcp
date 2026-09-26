@@ -31,8 +31,8 @@
     "privacyPolicyURL": "https://tesea.com.br/privacidade",
     "termsOfServiceURL": "https://tesea.com.br/termos",
     "brandColor": "#111111",
-    "composerIcon": "./assets/logo-rounded-black.png",
-    "logo": "./assets/logo-rounded-black.png",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "Consulte um processo na Tesea.",
       "Liste meus certificados disponíveis.",
