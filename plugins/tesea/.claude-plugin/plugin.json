@@ -1,7 +1,7 @@
 {
   "name": "tesea",
   "displayName": "Tesea",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Consulte processos, movimentações, expedientes e documentos judiciais pelo MCP oficial da Tesea no Claude, Cowork e Claude Code.",
   "author": {
     "name": "Tesea AI"
